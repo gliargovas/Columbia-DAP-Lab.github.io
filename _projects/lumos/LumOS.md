@@ -4,7 +4,7 @@ title: "LumOS: LLM Agents for Always‑On OS Tuning"
 subtitle: "Safe, explainable control loops that continuously optimize Linux in real time"
 date: 2025-10-26
 tags: [Operating Systems, LLM Agents, Scheduling, Auto‑tuning, MCP]
-image: LumOS.png
+image: _projects\LumOS\LumOS.png
 authors:
   - name: "Georgios Liargkovas"
   - name: "Vahab Jabrayilov"
@@ -27,7 +27,7 @@ publications:
 ### Overview
 **LumOS** builds an *expert‑in‑residence* agent that **safely tunes Linux kernel schedulers online**. The agent reasons over live telemetry, proposes settings, and applies changes with guards (transactional apply/commit/revert, approvals), delivering **faster convergence and lower tail latency** than classical tuners or manual tuning, and adapting quickly to workload shifts.
 
-![Architecture](architecture.svg)
+![Architecture](_projects\LumOS\architecture.svg)
 
 
 ### Why it matters
